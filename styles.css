@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif, Arial;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+
+.center {
+    text-align: center;
+}
+
+.center-img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Zebra-striping for assignments table */
+table {
+    width: 20%;
+    border-collapse: collapse;
+}
+.darkrow {
+    background-color: #d9d9d9;
+}
+.lightrow {
+    background-color: #f2f2f2;
+}
+
+/* Hobbies and interests list */
+ul {
+    margin-left: 2cm;
+}
+
+/* Quote styling */
+.quote {
+    font-style: italic;
+    text-align: center;
+    margin: 20px;
+    background-color: #e6e6e6;
+    padding: 10px;
+    border-left: 5px solid #333;
+}
+
+/* Hover effect for links */
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* Span style for specific words ("Georgia State", "Computer Science", "of", "the" */
+span.red-bold {
+    color: red;
+    font-weight: bold;
+}
